@@ -17,20 +17,16 @@ function ChangingBaner() {
   }, [currentState]);
 
   const bgImageStyle = {
-    backgroundImage: `${imgSlide[currentState].url}`,
+    url: `${imgSlide[currentState].url}`,
   };
 
-  const goToNext = () => {
-    setCurrentState(currentState);
-  };
-  console.log(bgImageStyle.backgroundImage);
+
+  console.log(bgImageStyle.url);
 
   return (
     <>
-      <img className="baner" src={bgImageStyle.backgroundImage} />
-      {imgSlide.map((imageSlide, currentState) => (
-        <span key={currentState} onClick={() => goToNext(currentState)}></span>
-      ))}
+      <img className="baner" src={bgImageStyle.url} />
+
     </>
   );
 }
