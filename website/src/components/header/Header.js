@@ -1,6 +1,6 @@
 import { Link } from "react-router";
 
-import "./header.css";
+import "../../css/HeaderCss/header.css";
 function Header() {
   return (
     <section className=" header center">
@@ -10,14 +10,12 @@ function Header() {
       <Link className="header__navLink" to={"/portfolio"}>
         Портфолио
       </Link>
-      <Link className="header__navLink" to={"/contacts"}>
-        Контакты
-      </Link>
       <Link className="header__navLink" to={"/price"}>
         Стоимость и условия работы
       </Link>
-
-      <button className="header__submitYourApplication clicking">Оставить заявку</button>
+      <Link className="header__navLink" to={"/contacts"}>
+        Контакты
+      </Link>
     </section>
   );
 }

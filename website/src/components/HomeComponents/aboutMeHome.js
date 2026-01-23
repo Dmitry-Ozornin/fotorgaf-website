@@ -1,4 +1,4 @@
-import photograferPhoto from "../../pages/css/homeCss/IMG_7513.jpg";
+import photograferPhoto from "../../css/homeCss/IMG_7513.jpg";
 import { Link } from "react-router";
 function AboutMeHome() {
   return (

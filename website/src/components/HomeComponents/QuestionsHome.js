@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router";
-import questionPhoto from "../../pages/css/homeCss/IMG_7857.jpg";
+import questionPhoto from "../../css/homeCss/IMG_7857.jpg";
 import ArrowDown from "./arrow-down.svg";
 import ArrowUp from "./up-arrow.svg";
 
@@ -58,12 +58,15 @@ function QuestionsHome() {
             Как забронировать дату и время? <img src={question1Arrow[0]} onClick={(e) => openQestion(e.target.parentNode.id)} style={{ width: "20px" }} alt={question1Arrow[1]} />
           </button>
           <p className={`${question1} questions__box_question_text`}>
-            Для того, чтобы забронировать дату фотосессии, свяжитесь со мной любым удобным для вас способом: <Link to={"/contacts"}>ssmirnvv.ru/contacts</Link>
+            Для того, чтобы забронировать дату фотосессии, свяжитесь со мной любым удобным для вас способом:{" "}
+            <Link to={"/contacts"} className="questions__box_question_text_link">
+              Контакты
+            </Link>
           </p>
         </article>
         <article className="questions__box_question">
           <button className="questions__box_question_button arrowPlace2" onClick={(e) => openQestion(e.target.id)} id="q2">
-            Сколько фотографий получится? 
+            Сколько фотографий получится?
             <img src={question2Arrow[0]} onClick={(e) => openQestion(e.target.parentNode.id)} style={{ width: "20px" }} alt={question2Arrow[1]} />
           </button>
           <p className={`${question2} questions__box_question_text`}>Количество фотографий варьируется от выбранного типа съемки — от 10 до 300+. Но я всегда делаю больше заявленного количества.</p>
