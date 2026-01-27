@@ -70,26 +70,71 @@
         height: 500px;
         object-fit: cover;
       }
-      &__title{
+      &__title {
         margin-top: 20px;
       }
-      &__shooterCost{
+      &__shooterCost {
         margin-top: 20px;
         font-weight: 700;
       }
 
-      &__text{
-        margin-top: 25px
-
+      &__text {
+        margin-top: 25px;
       }
-      &__list{
+      &__list {
         margin-top: 10px;
 
-        &__text{
-            margin-top: 10px;
-            margin-left: 17px;
+        &__text {
+          margin-top: 10px;
+          margin-left: 17px;
         }
       }
     }
   }
+  &__weddingPackage {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    padding-bottom: 60px;
+   
+    &__box {
+      margin-top: 30px;
+      width: 1200px;
+      height: 500px;
+
+      &__img {
+        width: 570px;
+        height: 340px;
+      }
+
+      &__about {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        &__list {
+          padding-left: 17px;
+          display: flex;
+          flex-direction: column;
+          gap: 5px;
+        }
+      }
+    }
+  }
+}
+
+//расположение в свадебных пакетах
+.boxStyleTypeOne {
+  display: flex;
+  align-items: center;
+
+  gap: 30px;
+}
+.boxStyleTypeTwo {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 30px;
 }

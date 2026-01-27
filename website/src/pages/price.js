@@ -61,7 +61,7 @@ function Price() {
       </section>
       <section className="price__cost center">
         <article className="price__cost__box">
-          <img src="/imgForPrice/IndiviualPhotoSession.jpg" className="price__cost__box__img"></img>
+          <img src="/imgForPrice/IndiviualPhotoSession.jpg" className="price__cost__box__img" alt="Пример индивидуального фото"></img>
           <h3 className="price__cost__box__title">Индивидуальная фотосессия</h3>
           <p className="price__cost__box__shooterCost">4000 р.</p>
           <ul className="price__cost__box__list">
@@ -75,7 +75,7 @@ function Price() {
           <p className="price__cost__box__text">Аренда фотостудии для съемки, услуги визажиста, стилиста оплачиваются отдельно.</p>
         </article>
         <article className="price__cost__box">
-          <img className="price__cost__box__img"></img>
+          <img className="price__cost__box__img" src="/imgForPrice/loveStory.jpg" alt="пример Love Story фотографии"></img>
           <h3 className="price__cost__box__title">Love story</h3>
           <p className="price__cost__box__shooterCost">4500 р.</p>
           <ul className="price__cost__box__list">
@@ -89,7 +89,7 @@ function Price() {
           <p className="price__cost__box__text">Аренда фотостудии для съемки, услуги визажиста, стилиста оплачиваются отдельно.</p>
         </article>
         <article className="price__cost__box">
-          <img className="price__cost__box__img"></img>
+          <img className="price__cost__box__img" src="/imgForPrice/groopPhoto.jpg" alt="Пример группового фото"></img>
           <h3 className="price__cost__box__title">Групповая/семейная фотосессия</h3>
           <p className="price__cost__box__shooterCost">от 4500 р.</p>
           <ul className="price__cost__box__list">
@@ -104,7 +104,7 @@ function Price() {
           <p className="price__cost__box__text">Аренда фотостудии для съемки, услуги визажиста, стилиста оплачиваются отдельно.</p>
         </article>
         <article className="price__cost__box">
-          <img className="price__cost__box__img" />
+          <img className="price__cost__box__img" src="/imgForPrice/reportageShooting.jpg" alt="Репортажная съемка" />
           <h3 className="price__cost__box__title">Репортажная съемка</h3>
           <p className="price__cost__box__shooterCost">от 4500 р.</p>
           <ul className="price__cost__box__list">
@@ -114,6 +114,71 @@ function Price() {
             <li className="price__cost__box__list__text">70-100 фотографий в авторской обработке и легкой ретуши Все хорошие исходники (по желанию)</li>
             <li className="price__cost__box__list__text">Передача готовых фотографий через персональный сайт-галерею</li>
           </ul>
+        </article>
+      </section>
+      <section className="price__certificate center">
+        <h2 className="price__certificate__title">Подарочный сертификат</h2>
+        <p className="price__certificate__text">Прекрасным подарком на любой праздник может стать подарочный сертификат на фотосессию.</p>
+      </section>
+      <section className="price__weddingPackage center ">
+        <h2>Пакеты для свадебной съемки</h2>
+        <article className="price__weddingPackage__box boxStyleTypeOne">
+          <article className="price__weddingPackage__box__about">
+            <h2 className="price__weddingPackage__box__about__title">Пакет № 1 «Uno»</h2>
+            <h3 className="price__weddingPackage__box__about__name">Загс, прогулка и банкет</h3>
+            <p className="price__weddingPackage__box__about__cost">от 10 000 р.</p>
+            <p className="price__weddingPackage__box__about__text">Первые 2 часа — торжественная регистрация в ЗАГСе и прогулка (1-2 локации рядом)</p>
+            <ul className="price__weddingPackage__box__about__list">
+              <li className="price__weddingPackage__box__about__list__point">Консультация при подготовке к съемке</li>
+              <li className="price__weddingPackage__box__about__list__point">Разработка фото-маршрута</li>
+              <li className="price__weddingPackage__box__about__list__point">от 70-ти фотографий с каждого часа в авторской обработке (цветокоррекция и легкая ретушь)</li>
+              <li className="price__weddingPackage__box__about__list__point">10 фотографий в ретуши на ваш выбор</li>
+              <li className="price__weddingPackage__box__about__list__point">Передача готовых фотографий через персональный сайт-галерею</li>
+              <li className="price__weddingPackage__box__about__list__point">Конечная стоимость может быть скорректирована в зависимости от ваших пожеланий и формата фотосъемки</li>
+              <li className="price__weddingPackage__box__about__list__point">Каждый последующий час свадебного дня — 4000 р.</li>
+            </ul>
+            <p className="price__weddingPackage__box__about__text">Дополнительно вы можете заказать услуги стилиста, визажиста (я могу порекомендовать специалистов, с которыми работаю сама и уверена в их результате).</p>
+          </article>
+          <img alt="Пакет UNO" src="/imgForPrice/reportageShooting.jpg" className="price__weddingPackage__box__img"></img>
+        </article>
+        <article className="price__weddingPackage__box boxStyleTypeTwo">
+          <article className="price__weddingPackage__box__about">
+            <h2 className="price__weddingPackage__box__about__title">Пакет № 2 «Due»</h2>
+            <h3 className="price__weddingPackage__box__about__name">Загс, прогулка и банкет — 2</h3>
+            <p className="price__weddingPackage__box__about__cost">от 13 000 р.</p>
+            <p className="price__weddingPackage__box__about__text">Первые 3 часа — торжественная регистрация в ЗАГСе и прогулка (2-3 локации)</p>
+            <ul className="price__weddingPackage__box__about__list">
+              <li className="price__weddingPackage__box__about__list__point">Консультация при подготовке к съемке</li>
+              <li className="price__weddingPackage__box__about__list__point">Разработка фото-маршрута</li>
+              <li className="price__weddingPackage__box__about__list__point">от 70-ти фотографий с каждого часа в авторской обработке (цветокоррекция и легкая ретушь)</li>
+              <li className="price__weddingPackage__box__about__list__point">10 фотографий в ретуши на ваш выбор</li>
+              <li className="price__weddingPackage__box__about__list__point">Передача готовых фотографий через персональный сайт-галерею</li>
+              <li className="price__weddingPackage__box__about__list__point">Конечная стоимость может быть скорректирована в зависимости от ваших пожеланий и формата фотосъемки</li>
+              <li className="price__weddingPackage__box__about__list__point">Каждый последующий час свадебного дня — 4000 р.</li>
+            </ul>
+            <p className="price__weddingPackage__box__about__text">Дополнительно вы можете заказать услуги стилиста, визажиста (я могу порекомендовать специалистов, с которыми работаю сама и уверена в их результате).</p>
+          </article>
+          <img alt="Пакет Due" src="/imgForPrice/reportageShooting.jpg" className="price__weddingPackage__box__img"></img>
+        </article>
+        <article className="price__weddingPackage__box boxStyleTypeOne">
+          <article className="price__weddingPackage__box__about">
+            <h2 className="price__weddingPackage__box__about__title">Пакет № 3 «Tre»</h2>
+            <h3 className="price__weddingPackage__box__about__name">Утро невесты, загс, прогулка и банкет</h3>
+            <p className="price__weddingPackage__box__about__cost">от 16 000 р.</p>
+            <p className="price__weddingPackage__box__about__text">Сборы невесты. Следующие 3 часа — торжественная регистрация в ЗАГСе и прогулка (1-2 локации рядом)</p>
+            <ul className="price__weddingPackage__box__about__list">
+              <li className="price__weddingPackage__box__about__list__point">Консультация при подготовке к съемке</li>
+              <li className="price__weddingPackage__box__about__list__point">Разработка фото-маршрута</li>
+              <li className="price__weddingPackage__box__about__list__point">от 70-ти фотографий с каждого часа в авторской обработке (цветокоррекция и легкая ретушь)</li>
+              <li className="price__weddingPackage__box__about__list__point">10 фотографий в ретуши на ваш выбор</li>
+              <li className="price__weddingPackage__box__about__list__point">Передача готовых фотографий через персональный сайт-галерею</li>
+              <li className="price__weddingPackage__box__about__list__point">Конечная стоимость может быть скорректирована в зависимости от ваших пожеланий и формата фотосъемки</li>
+              <li className="price__weddingPackage__box__about__list__point">Каждый последующий час свадебного дня — 4000 р.</li>
+            </ul>
+            <p className="price__weddingPackage__box__about__text">Дополнительно вы можете заказать услуги стилиста, визажиста (я могу порекомендовать специалистов, с которыми работаю сама и уверена в их результате).</p>
+            <p className="price__weddingPackage__box__about__text">Если сборы невесты проходят в студии, то студия для съемки оплачивается отдельно.</p>
+          </article>
+          <img alt="Пакет Tre" src="/imgForPrice/reportageShooting.jpg" className="price__weddingPackage__box__img"></img>
         </article>
       </section>
 
