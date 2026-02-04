@@ -1,0 +1,42 @@
+.theHeader {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  position: absolute;
+  z-index: 55;
+  background-color: rgb(255, 255, 255, 0.1);
+  height: 6vh;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  &__link {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: "Arial", sans-serif;
+
+    &_active {
+      text-decoration: none;
+      color: black;
+      font-size: 1.5rem;
+      font-weight: 500;
+      font-family: "Arial", sans-serif;
+      border-bottom: black 2px solid;
+    }
+    &_active:hover {
+      cursor: default;
+    }
+  }
+  &__link {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 5px;
+    background-image: linear-gradient(90deg, #000000, #000000);
+    background-size: 0% 2px;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+  }
+  &__link:hover {
+    background-size: 100% 2px;
+  }
+}
