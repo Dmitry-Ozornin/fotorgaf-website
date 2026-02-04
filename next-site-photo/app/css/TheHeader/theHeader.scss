@@ -30,13 +30,21 @@
   &__link {
     position: relative;
     display: inline-block;
-    padding-bottom: 5px;
-    background-image: linear-gradient(90deg, #000000, #000000);
-    background-size: 0% 2px;
-    background-repeat: no-repeat;
-    background-position: center bottom;
+    padding-bottom: 8px;
   }
-  &__link:hover {
-    background-size: 100% 2px;
+  &__link::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #000000;
+    transform: scaleX(0); /* Начинается с 0 */
+    transform-origin: center; /* Ключевая строка! */
+    transition: transform 0.4s ease;
+  }
+  &__link:hover::after {
+    transform: scaleX(1); /* Расширяется от центра */
   }
 }
